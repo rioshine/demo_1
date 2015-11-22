@@ -16,11 +16,7 @@
 
     <target name="compile">
         <mkdir dir="${classes.dir}"/>
-<<<<<<< HEAD
         <javac srcdir="${src.dir}" destdir="${classes.dir}" includeantruntime="false"/>
-=======
-        <javac srcdir="${src.dir}" destdir="${classes.dir}"/>
->>>>>>> origin/master
     </target>
 
     <target name="jar" depends="compile">
@@ -39,9 +35,5 @@
     <target name="clean-build" depends="clean,jar"/>
 
     <target name="main" depends="clean,run"/>
-<<<<<<< HEAD
 
 </project>
-=======
-</project>
->>>>>>> origin/master
